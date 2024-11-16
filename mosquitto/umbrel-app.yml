@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: mosquitto
+name: Mosquitto
+tagline: An open source MQTT broker
+icon: ""
+category: developer
+version: "2.0.20"
+port: 1883
+description: >-
+  Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 5.0, 3.1.1 and 3.1. 
+
+
+  Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.
+
+
+  The MQTT protocol provides a lightweight method of carrying out messaging using a publish/subscribe model. 
+
+
+  This makes it suitable for Internet of Things messaging such as with low power sensors or mobile devices such as phones, embedded computers or microcontrollers.
+
+
+developer: Cedalo
+website: https://cedalo.com/
+repo: https://github.com/eclipse-mosquitto/mosquitto
+support: https://cedalo.com/open-source-mosquitto-support/
+gallery: []
+releaseNotes: ""
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: phelipebf
+submission: https://github.com/getumbrel/umbrel-apps/pull/1788

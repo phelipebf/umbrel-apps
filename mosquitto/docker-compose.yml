@@ -1,0 +1,23 @@
+version: "3.7"
+
+services:
+  
+  app_proxy:
+    environment:
+      APP_HOST: mosquitto_mosquitto_1
+      APP_PORT: 1883
+      
+  mosquitto:
+    image: eclipse-mosquitto:2.0.20@sha256:8b396cec28cd5e8e1a3aba1d9abdbddd42c454c80f703e77c1bec56e152fa54e
+    user: 1000:1000
+    restart: on-failure
+    stop_grace_period: 1m
+    #volumes:
+    #  - ${APP_DATA_DIR}/data/config:/mosquitto/config
+    #  - ${APP_DATA_DIR}/data/data:/mosquitto/data
+    #  - ${APP_DATA_DIR}/data/log:/mosquitto/log
+    ports:
+      - '1883:1883'
+      - '1884:1884'
+      - '8883:8883'
+      - '8884:8884'
