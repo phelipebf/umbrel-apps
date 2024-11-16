@@ -7,7 +7,7 @@ services:
       APP_PORT: 80
 
   web:
-    image: rotki/rotki:v1.35.0@sha256:3346b217cb0895069a4af38eab0db9100d9d07bae7dc35d2f0349b6d289dcdff
+    image: rotki/rotki:v1.36.0@sha256:765cd6cebfc25a2e0ddbe5735674e655b81a1a19ab7c207f2dfcd34428ad8d3a
     restart: on-failure
     stop_grace_period: 1m
     init: true

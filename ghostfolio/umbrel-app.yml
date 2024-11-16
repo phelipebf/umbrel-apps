@@ -2,7 +2,7 @@ manifestVersion: 1
 id: ghostfolio
 category: finance
 name: Ghostfolio
-version: "2.115.0"
+version: "2.122.0"
 tagline: Manage your wealth like a boss
 description: >-
   Ghostfolio is a privacy-first, open source dashboard for your personal finances.
@@ -31,13 +31,10 @@ path: ""
 deterministicPassword: false
 torOnly: false
 releaseNotes: >
-  This release includes several improvements:
-    - Added the name to the tooltip of the chart of the holdings tab on the home page
-    - Improved the backgrounds and labels of the chart of the holdings tab on the home page
-    - Improved the usability to customize the rule thresholds in the X-ray section by introducing sliders
-    - Exposed the timeout of the portfolio snapshot computation as an environment variable
-    - Improved portfolio unit tests
-    - Fixed consideration of user language settings on login with Security Token
+  This release includes improvements to the application:
+    - Fixed chart display issues in the holdings tab
+    - Improved user authorization handling
+    - Enhanced market overview functionality
 
 
   Full release notes are found at https://github.com/ghostfolio/ghostfolio/releases.

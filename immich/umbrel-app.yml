@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: immich
 category: files
 name: Immich
-version: "v1.118.2"
+version: "v1.120.2"
 tagline: High-performance photo and video backup solution
 description: >-
   An open-source and high-performance self-hosted backup solution for the videos and photos on your mobile device
@@ -48,13 +48,11 @@ releaseNotes: >-
   ⚠️ As usual, please check that your mobile app is compatible with this release of Immich.
 
 
-  Highlights:
-    - Option to refresh face detection
-    - Color filters for editing photos
-    - Timezone improvements
-    - Deprecated release notes section
-    - Better JPEG compression
-    - Multi-GPU support for ML
+  This release includes bug fixes and improvements:
+    - Fixed database backup compatibility with different Postgres versions
+    - Fixed thumbnail rotation when using embedded previews
+    - Fixed date localization issues in the mobile app
+    - Various configuration and documentation improvements
 
   Full release notes are found at https://github.com/immich-app/immich/releases
 developer: Alex Tran

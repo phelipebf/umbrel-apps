@@ -3,7 +3,7 @@ id: audiobookshelf
 name: Audiobookshelf
 tagline: Audiobook and podcast server
 category: media
-version: "2.15.0"
+version: "2.16.2"
 port: 13378
 description: >-
   Features:
@@ -61,24 +61,23 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 releaseNotes: >-
-  This release includes several improvements and bug fixes:
-
-
   New features:
-    - Book library filter for published decade
-    - Book library filter for missing chapters
-    - Authors page lazy load and pagination
+    - Library setting to control when to mark items as finished (time remaining or percentage)
+    - User permission to allow users to create ereaders
 
 
   Fixed:
-    - Unicode handling for author and series queries
-    - Podcast episode batch mark as finished now available for all users
+    - Incorrect version shown as latest version when update is available
+    - Server crash when downloading files
+    - Incorrect time remaining for podcast episodes
+    - Server crash when streaming download 
 
 
   Changed:
-    - UI/UX improvements for author images
-    - Enhanced API functionality for libraries and authors
-    - More strings translated in various languages
+    - Improved performance with database migration for indexes
+    - Enhanced embed metadata tool functionality
+    - Improved localization for missing strings
+    - More strings translated in various languages including Croatian, Czech, Dutch, German, Polish, and Simplified Chinese
 
 
   Full release notes can be found at https://github.com/advplyr/audiobookshelf/releases
